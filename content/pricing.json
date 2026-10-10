@@ -1,0 +1,12 @@
+{
+  "placeholder": true,
+  "currency": "VND",
+  "items": [
+    { "garment": "Áo dài (women)", "priceFrom": 1200000, "currency": "VND" },
+    { "garment": "Áo dài (men)", "priceFrom": 1000000, "currency": "VND" },
+    { "garment": "Áo dài (children)", "priceFrom": 600000, "currency": "VND" },
+    { "garment": "Modernised áo dài (cách tân)", "priceFrom": 800000, "currency": "VND" },
+    { "garment": "Vest / suit jacket", "priceFrom": 2500000, "currency": "VND" },
+    { "garment": "Trousers", "priceFrom": 500000, "currency": "VND" }
+  ]
+}

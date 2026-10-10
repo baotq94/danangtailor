@@ -1,0 +1,4 @@
+# Cloudflare Pages response headers. The site still has sample content: keep it out of
+# search results. Delete this rule together with CONTENT.noindex when the content is real.
+/*
+  X-Robots-Tag: noindex

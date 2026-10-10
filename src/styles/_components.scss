@@ -1,0 +1,47 @@
+// Shared controls. MASTER.md §4.2.
+
+.button {
+  --icon-size: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-block-size: 3rem;
+  padding: var(--space-3) 1.25rem;
+  border: 1px solid transparent;
+  border-radius: var(--radius);
+  font-weight: var(--weight-semibold);
+  line-height: 1.25;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    background-color var(--transition),
+    border-color var(--transition),
+    color var(--transition);
+
+  &--primary {
+    background: var(--accent);
+    color: var(--on-accent);
+
+    &:hover {
+      background: var(--accent-hover);
+      color: var(--on-accent);
+    }
+  }
+
+  &--secondary {
+    background: transparent;
+    border-color: var(--control-border);
+    color: var(--ink);
+
+    &:hover {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+  }
+}
+
+// Label above a value, e.g. "Opening hours" in S5, S7.
+.meta-label {
+  font-size: var(--text-sm);
+  color: var(--ink-muted);
+}

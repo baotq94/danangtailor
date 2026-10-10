@@ -1,0 +1,107 @@
+{
+  "brand": {
+    "name": "Nhà may Đà Nẵng"
+  },
+  "meta": {
+    "title": "Nhà may Đà Nẵng · May áo dài trong 24h tại chợ Hàn, Đà Nẵng",
+    "description": "Nhà may Đà Nẵng trong chợ Hàn, Đà Nẵng. May áo dài trong 24h, đồ cách tân và vest. Gọi 0900 000 000."
+  },
+  "header": {
+    "skip": "Bỏ qua, đến nội dung chính",
+    "languages": "Ngôn ngữ",
+    "sections": "Các mục trên trang",
+    "menu": "Mục lục",
+    "call": "Gọi",
+    "callLabel": "Gọi {phone}"
+  },
+  "nav": {
+    "story": "Giới thiệu",
+    "work": "Mẫu may",
+    "process": "Quy trình & giá",
+    "find": "Đường đến quầy",
+    "reviews": "Đánh giá",
+    "contact": "Liên hệ"
+  },
+  "sections": {
+    "story": "Giới thiệu",
+    "work": "Mẫu may",
+    "process": "Quy trình may và bảng giá",
+    "find": "Tìm quầy trong chợ Hàn",
+    "reviews": "Khách hàng nói gì",
+    "contact": "Liên hệ"
+  },
+  "common": {
+    "hours": "Giờ mở cửa",
+    "address": "Địa chỉ",
+    "phone": "Điện thoại"
+  },
+  "hero": {
+    "line": "Áo dài, đồ cách tân và vest may đo ngay tại quầy.",
+    "where": "Quầy {stall} · chợ Hàn, Đà Nẵng",
+    "figure": "24h",
+    "figureLabel": "để may xong một chiếc áo dài",
+    "gallery": "Ảnh áo dài",
+    "slide": "Ảnh {n} / {total}",
+    "prev": "Ảnh trước",
+    "next": "Ảnh sau",
+    "pause": "Dừng tự chuyển ảnh",
+    "play": "Tự chuyển ảnh"
+  },
+  "story": {
+    "p1": "Nhà may Đà Nẵng nằm trong chợ Hàn, Đà Nẵng.",
+    "p2": "Áo dài là việc cô gắn bó nhiều nhất, bên cạnh đồ cách tân và, khi khách cần, cả vest. Mỗi bộ đều được lấy số đo ngay tại quầy và may riêng theo dáng người mặc.",
+    "p3": "Sau {years} năm theo nghề, cô vẫn giữ cách làm quen thuộc: lắng nghe khách muốn gì, cùng khách chọn vải, rồi may cho thật vừa.",
+    "p4": "Khách của quầy là người Đà Nẵng và du khách, nhiều nhất đến từ Hàn Quốc và Nhật Bản. Dù chỉ ghé Đà Nẵng vài ngày, nhiều người vẫn tìm đến để may cho mình một bộ áo dài mang về."
+  },
+  "work": {
+    "filter": "Lọc ảnh theo loại",
+    "all": "Tất cả",
+    "aoDai": "Áo dài",
+    "cachTan": "Đồ cách tân",
+    "vest": "Vest & âu phục",
+    "open": "{alt}. Xem ảnh lớn",
+    "close": "Đóng",
+    "gallery": "Bộ sưu tập ảnh",
+    "prev": "Trang ảnh trước",
+    "next": "Trang ảnh sau",
+    "page": "Trang {page} / {total}"
+  },
+  "process": {
+    "step1Title": "Tư vấn & chọn mẫu",
+    "step1Text": "Cho cô biết kiểu áo bạn muốn, mang theo ảnh nếu có.",
+    "step2Title": "Chọn vải",
+    "step2Text": "Chọn chất liệu và màu vải tại quầy.",
+    "step3Title": "Lấy số đo",
+    "step3Text": "Cô lấy số đo trực tiếp tại quầy.",
+    "step4Title": "Thử & nhận áo",
+    "step4Text": "Quay lại quầy để thử và nhận áo.",
+    "turnaround": "Thời gian may: 24–48h, tùy món.",
+    "pricesTitle": "Bảng giá",
+    "garment": "Loại",
+    "price": "Giá",
+    "from": "từ {price}",
+    "fabricNote": "Giá cuối cùng tùy loại vải bạn chọn."
+  },
+  "find": {
+    "stall": "Quầy số",
+    "directions": "Cách tìm quầy",
+    "mapTitle": "Bản đồ: Nhà may Đà Nẵng trong chợ Hàn",
+    "openMaps": "Mở Google Maps"
+  },
+  "contact": {
+    "call": "Gọi điện",
+    "zalo": "Nhắn Zalo"
+  },
+  "zalo": {
+    "floating": "Zalo",
+    "floatingLabel": "Zalo: nhắn tin cho nhà may"
+  },
+  "photos": {
+    "hero": "Áo dài may tại Nhà may Đà Nẵng",
+    "work": "{category} may tại Nhà may Đà Nẵng",
+    "stallFront": "Mặt trước quầy may Đà Nẵng trong chợ Hàn",
+    "stallApproach": "Lối đi trong chợ Hàn dẫn đến quầy",
+    "process": "Bước {step}: {title}",
+    "pending": "(ảnh sắp có)"
+  }
+}

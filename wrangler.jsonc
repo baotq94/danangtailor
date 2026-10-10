@@ -1,0 +1,8 @@
+// Cloudflare Workers (static assets only). "name" must match the Worker name in the dashboard.
+{
+  "name": "danangtailor",
+  "compatibility_date": "2026-09-17",
+  "assets": {
+    "directory": "./dist/danangtailor/browser",
+  },
+}

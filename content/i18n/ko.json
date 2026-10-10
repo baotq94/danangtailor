@@ -1,0 +1,107 @@
+{
+  "brand": {
+    "name": "Da Nang 테일러샵"
+  },
+  "meta": {
+    "title": "Da Nang 테일러샵 · 다낭 한시장 아오자이 24h 맞춤",
+    "description": "다낭 한시장 안의 Da Nang 테일러샵. 아오자이는 24h 안에 완성되며, 개량 아오자이와 정장도 맞춤 제작합니다. 전화 +84 900 000 000."
+  },
+  "header": {
+    "skip": "본문으로 건너뛰기",
+    "languages": "언어",
+    "sections": "페이지 목차",
+    "menu": "메뉴",
+    "call": "전화",
+    "callLabel": "전화 걸기 {phone}"
+  },
+  "nav": {
+    "story": "소개",
+    "work": "작품",
+    "process": "제작 과정·가격",
+    "find": "찾아오는 길",
+    "reviews": "후기",
+    "contact": "연락처"
+  },
+  "sections": {
+    "story": "소개",
+    "work": "제작한 옷",
+    "process": "제작 과정과 가격",
+    "find": "한시장 안에서 가게 찾기",
+    "reviews": "고객 후기",
+    "contact": "연락처"
+  },
+  "common": {
+    "hours": "영업시간",
+    "address": "주소",
+    "phone": "전화"
+  },
+  "hero": {
+    "line": "아오자이와 개량 아오자이, 때로는 정장까지 가게에서 직접 맞춤 제작합니다.",
+    "where": "다낭 한시장 {stall}번 가게",
+    "figure": "24h",
+    "figureLabel": "아오자이 한 벌 완성까지",
+    "gallery": "아오자이 사진",
+    "slide": "{total}장 중 {n}번째 사진",
+    "prev": "이전 사진",
+    "next": "다음 사진",
+    "pause": "자동 넘김 멈추기",
+    "play": "자동 넘김 시작"
+  },
+  "story": {
+    "p1": "Da Nang 테일러샵은 다낭 한시장 안에 있습니다.",
+    "p2": "사장님이 가장 깊이 몸담아 온 일은 아오자이이며, 개량 아오자이와 손님이 원하시면 정장도 만듭니다. 모든 옷은 가게에서 바로 치수를 재고, 입을 분의 체형에 맞춰 한 벌씩 제작합니다.",
+    "p3": "{years}년 동안 이 일을 해 오면서도 사장님은 늘 해 오던 방식을 지킵니다. 손님이 원하는 것을 먼저 듣고, 함께 원단을 고른 뒤, 몸에 꼭 맞게 짓습니다.",
+    "p4": "가게를 찾는 손님은 다낭 현지 분들과 여행객이며, 그중에서도 한국과 일본에서 오신 분이 가장 많습니다. 다낭에 며칠만 머무는 일정이어도 나만의 아오자이 한 벌을 맞춰 가려고 찾아오시는 분이 많습니다."
+  },
+  "work": {
+    "filter": "종류별로 보기",
+    "all": "전체",
+    "aoDai": "아오자이",
+    "cachTan": "개량 아오자이",
+    "vest": "정장",
+    "open": "{alt}. 크게 보기",
+    "close": "닫기",
+    "gallery": "사진 모음",
+    "prev": "이전 사진",
+    "next": "다음 사진",
+    "page": "{page} / {total} 페이지"
+  },
+  "process": {
+    "step1Title": "상담 및 디자인 선택",
+    "step1Text": "원하는 스타일을 알려 주세요. 참고 사진이 있으면 가져오셔도 됩니다.",
+    "step2Title": "원단 선택",
+    "step2Text": "가게에서 원단의 소재와 색을 고릅니다.",
+    "step3Title": "치수 측정",
+    "step3Text": "가게에서 직접 치수를 잽니다.",
+    "step4Title": "피팅 및 수령",
+    "step4Text": "다시 가게에 들러 입어 보고 옷을 찾아갑니다.",
+    "turnaround": "제작 기간: 품목에 따라 24–48h",
+    "pricesTitle": "가격",
+    "garment": "품목",
+    "price": "가격",
+    "from": "{price}부터",
+    "fabricNote": "최종 가격은 선택한 원단에 따라 달라집니다."
+  },
+  "find": {
+    "stall": "가게 번호",
+    "directions": "찾아오는 방법",
+    "mapTitle": "지도: 한시장 안 Da Nang 테일러샵",
+    "openMaps": "Google 지도에서 열기"
+  },
+  "contact": {
+    "call": "전화하기",
+    "zalo": "Zalo로 메시지 보내기"
+  },
+  "zalo": {
+    "floating": "Zalo",
+    "floatingLabel": "Zalo 메시지 보내기"
+  },
+  "photos": {
+    "hero": "Da Nang 테일러샵에서 만든 아오자이",
+    "work": "Da Nang 테일러샵에서 만든 {category}",
+    "stallFront": "한시장 안 Da Nang 테일러샵 가게 앞모습",
+    "stallApproach": "한시장 안에서 가게로 가는 통로",
+    "process": "{step}단계: {title}",
+    "pending": "(사진 준비 중)"
+  }
+}

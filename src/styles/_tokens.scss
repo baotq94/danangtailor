@@ -1,0 +1,68 @@
+// Design tokens. Source of truth: design-system/danangtailor/MASTER.md.
+// Components use these custom properties, never raw hex values.
+
+:root {
+  // Colour (§2): fabric and market. One accent, interactive elements only.
+  --paper: #f6f1e9;
+  --linen: #ebe4d8;
+  --ink: #2a2420;
+  --ink-muted: #675d54;
+  --rule: #d6ccbe;
+  --control-border: #8c8177;
+  --placeholder: #d3cec6;
+  --placeholder-ink: #4f4943;
+  --accent: #9b2f26;
+  --accent-hover: #7e251e;
+  --on-accent: #f6f1e9;
+
+  // Type (§1)
+  --font-sans: 'Be Vietnam Pro', 'Be Vietnam Pro Fallback', 'Noto Sans KR', 'Apple SD Gothic Neo',
+    'Malgun Gothic', system-ui, sans-serif;
+  --weight-regular: 400;
+  --weight-semibold: 600;
+
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: clamp(1.5rem, 1.2rem + 1.2vw, 2rem);
+  --text-2xl: clamp(2rem, 1.4rem + 2.6vw, 3.25rem);
+  --text-display: clamp(3rem, 2rem + 5vw, 5.5rem);
+
+  --leading-body: 1.6;
+  --leading-heading: 1.25;
+
+  // Space (§3.1), 4px base
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-24: 6rem;
+
+  // Layout (§3.2)
+  --container-max: 72rem;
+  --gutter: var(--space-4);
+  --section-pad: var(--space-16);
+  --header-height: 3.5rem;
+  --tap-min: 2.75rem; // 44px
+
+  // Shape and motion (§3.4, §7)
+  --radius: 4px;
+  --transition: 120ms ease-out;
+
+  @media (min-width: 48rem) {
+    --gutter: var(--space-6);
+  }
+
+  @media (min-width: 64rem) {
+    --text-base: 1.0625rem;
+    --section-pad: var(--space-24);
+  }
+
+  @media (min-width: 80rem) {
+    --gutter: var(--space-12);
+  }
+}

@@ -1,0 +1,61 @@
+<a class="skip-link" routerLink="." fragment="main" (click)="skipToMain()">{{ i18n.t('header.skip') }}</a>
+
+<nav class="langbar" [attr.aria-label]="i18n.t('header.languages')">
+  <ul class="container langbar__list" role="list">
+    @for (locale of i18n.locales; track locale.code) {
+      <li>
+        <a
+          class="langbar__link"
+          [routerLink]="['/', locale.code]"
+          [attr.hreflang]="locale.code"
+          [attr.lang]="locale.code"
+          [attr.aria-current]="locale.code === i18n.locale().code ? 'page' : null"
+          >{{ locale.label }}</a
+        >
+      </li>
+    }
+  </ul>
+</nav>
+
+<header class="bar">
+  <div class="container bar__inner">
+    <a class="bar__name" routerLink="." fragment="top">{{ i18n.t('brand.name') }}</a>
+
+    <button
+      class="bar__menu-button"
+      type="button"
+      aria-controls="section-nav"
+      [attr.aria-expanded]="menuOpen()"
+      (click)="toggleMenu()"
+    >
+      {{ i18n.t('header.menu') }}
+    </button>
+
+    <nav
+      id="section-nav"
+      class="bar__nav"
+      [class.bar__nav--open]="menuOpen()"
+      [attr.aria-label]="i18n.t('header.sections')"
+    >
+      <ul class="bar__nav-list" role="list">
+        @for (link of links(); track link.id) {
+          <li>
+            <a class="bar__nav-link" routerLink="." [fragment]="link.id" (click)="menuOpen.set(false)">{{
+              i18n.t(link.label)
+            }}</a>
+          </li>
+        }
+      </ul>
+    </nav>
+
+    <a
+      class="bar__call"
+      [href]="'tel:' + site.phoneE164"
+      [attr.aria-label]="i18n.t('header.callLabel', { phone: i18n.phoneDisplay() })"
+    >
+      <app-icon name="phone" />
+      <span class="bar__call-short">{{ i18n.t('header.call') }}</span>
+      <span class="bar__call-number">{{ i18n.phoneDisplay() }}</span>
+    </a>
+  </div>
+</header>

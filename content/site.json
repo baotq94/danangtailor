@@ -1,0 +1,18 @@
+{
+  "siteUrl": "https://example.com",
+  "phoneE164": "+84900000000",
+  "phoneDisplayLocal": "0900 000 000",
+  "phoneDisplayIntl": "+84 900 000 000",
+  "zaloUrl": "https://zalo.me/0900000000",
+  "zaloIsSample": true,
+  "mapsUrl": "https://www.google.com/maps?q=Da+Nang",
+  "mapsEmbedUrl": null,
+  "coordinates": {
+    "lat": 16.0544,
+    "lng": 108.2022
+  },
+  "stallNumber": null,
+  "address": null,
+  "hours": null,
+  "cfAnalyticsToken": null
+}

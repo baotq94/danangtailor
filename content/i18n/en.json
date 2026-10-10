@@ -1,0 +1,107 @@
+{
+  "brand": {
+    "name": "Da Nang Tailor"
+  },
+  "meta": {
+    "title": "Da Nang Tailor · Áo dài made in 24h, Han Market, Da Nang",
+    "description": "Da Nang Tailor inside Han Market, Da Nang. Áo dài made in 24h, plus modernised Vietnamese clothing and suits. Call +84 900 000 000."
+  },
+  "header": {
+    "skip": "Skip to main content",
+    "languages": "Language",
+    "sections": "Page sections",
+    "menu": "Menu",
+    "call": "Call",
+    "callLabel": "Call {phone}"
+  },
+  "nav": {
+    "story": "About",
+    "work": "Work",
+    "process": "Process & prices",
+    "find": "Find the stall",
+    "reviews": "Reviews",
+    "contact": "Contact"
+  },
+  "sections": {
+    "story": "About",
+    "work": "Work",
+    "process": "How it works, and prices",
+    "find": "Finding the stall in Han Market",
+    "reviews": "What customers say",
+    "contact": "Contact"
+  },
+  "common": {
+    "hours": "Opening hours",
+    "address": "Address",
+    "phone": "Phone"
+  },
+  "hero": {
+    "line": "Áo dài, modern Vietnamese wear and the occasional suit, made to measure at the stall.",
+    "where": "Stall {stall} · Han Market, Da Nang",
+    "figure": "24h",
+    "figureLabel": "to make an áo dài",
+    "gallery": "Áo dài photos",
+    "slide": "Photo {n} of {total}",
+    "prev": "Previous photo",
+    "next": "Next photo",
+    "pause": "Stop the slideshow",
+    "play": "Play the slideshow"
+  },
+  "story": {
+    "p1": "Da Nang Tailor is in Han Market, Da Nang.",
+    "p2": "The tailor has given most of her working life to áo dài, alongside modern Vietnamese wear and, when a customer needs one, a suit. Every piece is measured at the stall and made to fit the person who will wear it.",
+    "p3": "After {years} years in the trade, she still works the way she always has: listening to what you want, choosing the fabric with you, then sewing it until it fits just right.",
+    "p4": "Her customers are Da Nang locals and visitors, most of them from Korea and Japan. Even with only a few days in Da Nang, many still find their way to the stall to have an áo dài made to take home."
+  },
+  "work": {
+    "filter": "Filter by type",
+    "all": "All",
+    "aoDai": "Áo dài",
+    "cachTan": "Modern Vietnamese wear",
+    "vest": "Suits",
+    "open": "{alt}. View larger",
+    "close": "Close",
+    "gallery": "Photo gallery",
+    "prev": "Previous photos",
+    "next": "Next photos",
+    "page": "Page {page} of {total}"
+  },
+  "process": {
+    "step1Title": "Choose a design",
+    "step1Text": "Tell her the style you want. Bring a photo if you have one.",
+    "step2Title": "Choose the fabric",
+    "step2Text": "Pick the material and colour at the stall.",
+    "step3Title": "Measurements",
+    "step3Text": "She takes your measurements at the stall.",
+    "step4Title": "Fitting and pickup",
+    "step4Text": "Come back to the stall to try it on and collect it.",
+    "turnaround": "Ready in 24–48h, depending on the garment.",
+    "pricesTitle": "Prices",
+    "garment": "Garment",
+    "price": "Price",
+    "from": "from {price}",
+    "fabricNote": "The final price depends on the fabric you choose."
+  },
+  "find": {
+    "stall": "Stall number",
+    "directions": "Directions",
+    "mapTitle": "Map: Da Nang Tailor in Han Market",
+    "openMaps": "Open in Google Maps"
+  },
+  "contact": {
+    "call": "Call",
+    "zalo": "Message on Zalo"
+  },
+  "zalo": {
+    "floating": "Zalo",
+    "floatingLabel": "Zalo: send a message"
+  },
+  "photos": {
+    "hero": "An áo dài made at Da Nang Tailor",
+    "work": "{category} made at Da Nang Tailor",
+    "stallFront": "The front of the Da Nang Tailor stall in Han Market",
+    "stallApproach": "The aisle in Han Market that leads to the stall",
+    "process": "Step {step}: {title}",
+    "pending": "(photo coming soon)"
+  }
+}
